@@ -1,0 +1,136 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/mnt/disk1/koudai/fpga/single_cycle_cpu/simulation/modelsim
+vmcmem
+Z0 !s110 1589382781
+!i10b 1
+!s100 anb[UG<a:Y`Knc63;MZ8L1
+I@iViDBc5n]6ffH7GQ]bd10
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 d/mnt/disk1/koudai/fpga/cpu/MultipleCycle
+w1589376586
+8/mnt/disk1/koudai/fpga/cpu/MultipleCycle/mcmem.v
+F/mnt/disk1/koudai/fpga/cpu/MultipleCycle/mcmem.v
+L0 39
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1589382781.000000
+!s107 /mnt/disk1/koudai/fpga/cpu/MultipleCycle/mcmem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/mnt/disk1/koudai/fpga/cpu/MultipleCycle/mcmem.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vmultiple_cycle_cpu
+R0
+!i10b 1
+!s100 2?]LiknmlCX7k2ZNkEdA=0
+IPkNI6iB:fQiRf@4<mzg_a0
+R1
+R2
+Z7 w1589382772
+Z8 8/mnt/disk1/koudai/fpga/cpu/MultipleCycle/multiple_cycle_cpu.v
+Z9 F/mnt/disk1/koudai/fpga/cpu/MultipleCycle/multiple_cycle_cpu.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+Z10 !s107 /mnt/disk1/koudai/fpga/cpu/MultipleCycle/multiple_cycle_cpu.v|
+Z11 !s90 -reportprogress|300|-work|work|-stats=none|/mnt/disk1/koudai/fpga/cpu/MultipleCycle/multiple_cycle_cpu.v|
+!i113 1
+R5
+R6
+vmultiple_cycle_cpu_computer
+!s110 1589377709
+!i10b 1
+!s100 Wn[H=IJC7=nb7>MX8hK:k3
+I5MOU1dkDdReXaFHif7=ZI2
+R1
+R2
+w1589377612
+R8
+R9
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1589377708.000000
+R10
+R11
+!i113 1
+R5
+R6
+vmultiple_cycle_cpu_control_unit
+R0
+!i10b 1
+!s100 jWVFc9KA`QTBX@5hofQFS1
+I2=]@niCZ@ICBiJiQF5ICE0
+R1
+R2
+R7
+R8
+R9
+L0 118
+R3
+r1
+!s85 0
+31
+R4
+R10
+R11
+!i113 1
+R5
+R6
+vmultiple_cycle_cpu_tb
+R0
+!i10b 1
+!s100 ;Tj09D[EFaL65zMWEW8Xi0
+ICcVSe:?Q8NJ3A92aQRY`L2
+R1
+R2
+w1589382547
+8/mnt/disk1/koudai/fpga/cpu/MultipleCycle/multiple_cycle_cpu_tb.v
+F/mnt/disk1/koudai/fpga/cpu/MultipleCycle/multiple_cycle_cpu_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 /mnt/disk1/koudai/fpga/cpu/MultipleCycle/multiple_cycle_cpu_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/mnt/disk1/koudai/fpga/cpu/MultipleCycle/multiple_cycle_cpu_tb.v|
+!i113 1
+R5
+R6
+vregfile
+R0
+!i10b 1
+!s100 i0Jo33PhO3LEY9m=PXA6>0
+Ih07fTRd;hJ1]5hn<:a<ej3
+R1
+R2
+w1589377670
+8/mnt/disk1/koudai/fpga/cpu/MultipleCycle/register_file.v
+F/mnt/disk1/koudai/fpga/cpu/MultipleCycle/register_file.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 /mnt/disk1/koudai/fpga/cpu/MultipleCycle/register_file.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/mnt/disk1/koudai/fpga/cpu/MultipleCycle/register_file.v|
+!i113 1
+R5
+R6

@@ -1,0 +1,913 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/mnt/disk1/koudai/fpga/test_single_cycle_cpu
+vcsa
+Z0 !s110 1591279619
+!i10b 1
+!s100 SVn?Sz]AQ1jRockFc=J5b3
+Iz6S4U1`UDa>l2am<iajej0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 d/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu
+Z3 w1590847448
+8/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/csa.v
+F/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/csa.v
+L0 6
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1591279619.000000
+!s107 /mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/csa.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/csa.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vdata_mem
+Z8 !s110 1591279620
+!i10b 1
+!s100 F6Sg9SJ=lIJN5>1>ko>l33
+IVf@BFVQfoE944=EVRDQAR0
+R1
+R2
+w1590847820
+8/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/ROMRAM/data_mem.v
+F/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/ROMRAM/data_mem.v
+Z9 L0 39
+R4
+r1
+!s85 0
+31
+Z10 !s108 1591279620.000000
+!s107 /mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/ROMRAM/data_mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/ROMRAM/data_mem.v|
+!i113 1
+R6
+R7
+vfloat_adder_align_cal_reg
+R0
+!i10b 1
+!s100 WNGLVdzUhcQD:KcmfA4zg1
+I:ZVn]3[:^Q9Kdhm2WQQch1
+R1
+R2
+R3
+Z11 8/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/pipelined_float_adder.v
+Z12 F/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/pipelined_float_adder.v
+L0 100
+R4
+r1
+!s85 0
+31
+R5
+Z13 !s107 /mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/pipelined_float_adder.v|
+Z14 !s90 -reportprogress|300|-work|work|-stats=none|/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/pipelined_float_adder.v|
+!i113 1
+R6
+R7
+vfloat_adder_align_stage
+R0
+!i10b 1
+!s100 NWjlHVL^:VL0`fiCR7=WE0
+I13gCe=X:IO6EGeIYUBZjI1
+R1
+R2
+R3
+R11
+R12
+L0 56
+R4
+r1
+!s85 0
+31
+R5
+R13
+R14
+!i113 1
+R6
+R7
+vfloat_adder_cal_norm_reg
+R0
+!i10b 1
+!s100 UO3@f0T^KJfXiL0a??WX92
+IA19]fzgN>l]2M;hHMcGA80
+R1
+R2
+R3
+R11
+R12
+L0 161
+R4
+r1
+!s85 0
+31
+R5
+R13
+R14
+!i113 1
+R6
+R7
+vfloat_adder_cal_stage
+R0
+!i10b 1
+!s100 ;Qn33^S;WT9U?hiLLK2zW3
+IRcIFTeb<OJAi;F6SXRf_i1
+R1
+R2
+R3
+R11
+R12
+L0 148
+R4
+r1
+!s85 0
+31
+R5
+R13
+R14
+!i113 1
+R6
+R7
+vfloat_adder_norm_stage
+R0
+!i10b 1
+!s100 ;4IVH9KjJRFVcNQc<bZmW2
+I:LmXflP@U50Z5UBkSm9aC2
+R1
+R2
+R3
+R11
+R12
+L0 201
+R4
+r1
+!s85 0
+31
+R5
+R13
+R14
+!i113 1
+R6
+R7
+vfloat_divider_newton
+R0
+!i10b 1
+!s100 HQfTBVB;i1m;n==GZd5>12
+IVQLd1>F9O_UGY81DC7z6a1
+R1
+R2
+R3
+Z15 8/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/float_divider_newton.v
+Z16 F/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/float_divider_newton.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+Z17 !s107 /mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/float_divider_newton.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/float_divider_newton.v|
+!i113 1
+R6
+R7
+vfloat_multiplier_add_norm_reg
+R0
+!i10b 1
+!s100 BZnz4JoaEaK[9Xk=BlgI<0
+I<Oz5=IBK7XYTn2XKR`5?U3
+R1
+R2
+R3
+Z19 8/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/pipelined_float_multiplier.v
+Z20 F/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/pipelined_float_multiplier.v
+L0 141
+R4
+r1
+!s85 0
+31
+R5
+Z21 !s107 /mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/pipelined_float_multiplier.v|
+Z22 !s90 -reportprogress|300|-work|work|-stats=none|/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/pipelined_float_multiplier.v|
+!i113 1
+R6
+R7
+vfloat_multiplier_add_stage
+R0
+!i10b 1
+!s100 ]KdBb^KHLfo3VcM9BIXdA1
+I4?]9LJZgN_`UdiXjbaNT53
+R1
+R2
+R3
+R19
+R20
+L0 133
+R4
+r1
+!s85 0
+31
+R5
+R21
+R22
+!i113 1
+R6
+R7
+vfloat_multiplier_mul_add_reg
+R0
+!i10b 1
+!s100 LW?LK>Y];QZ[Xefa@[zFm2
+IKJK?`KVP27OeT29H0Wm0J3
+R1
+R2
+R3
+R19
+R20
+L0 85
+R4
+r1
+!s85 0
+31
+R5
+R21
+R22
+!i113 1
+R6
+R7
+vfloat_multiplier_mul_stage
+R0
+!i10b 1
+!s100 m^l3F9dUcCJ=Q<Q2c2WA^3
+ILH;@XM]0=RCSX_c:XW=6K0
+R1
+R2
+R3
+R19
+R20
+L0 47
+R4
+r1
+!s85 0
+31
+R5
+R21
+R22
+!i113 1
+R6
+R7
+vfloat_multiplier_norm_stage
+R0
+!i10b 1
+!s100 =aPg:GKP]6Pf8NhT4lOZ02
+IWY1g<8891aK6oTzkBQAnX2
+R1
+R2
+R3
+R19
+R20
+L0 181
+R4
+r1
+!s85 0
+31
+R5
+R21
+R22
+!i113 1
+R6
+R7
+vfloat_sqrt_newton
+R0
+!i10b 1
+!s100 lKmX_S]3gMI]EN8=lMj0`1
+IXV3o<EAFHC2jh73WbzgeD1
+R1
+R2
+R3
+Z23 8/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/float_sqrt_newton.v
+Z24 F/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/float_sqrt_newton.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+Z25 !s107 /mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/float_sqrt_newton.v|
+Z26 !s90 -reportprogress|300|-work|work|-stats=none|/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/float_sqrt_newton.v|
+!i113 1
+R6
+R7
+vfloat_to_integer
+R8
+!i10b 1
+!s100 S2aZKoDOib^z7jGJNSH5O0
+I>iPSiTYZAaP>kI3H^JakQ0
+R1
+R2
+w1591021094
+8/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/float_to_integer.v
+F/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/float_to_integer.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 /mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/float_to_integer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/float_to_integer.v|
+!i113 1
+R6
+R7
+vfloating_point_unit
+R0
+!i10b 1
+!s100 UXaRdFB9Tchl;^I:d_DDm1
+IR?kI[>8YLImS9QA<<bSSi1
+R1
+R2
+w1591278723
+8/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/fpu.v
+F/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/fpu.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 /mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/fpu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/fpu.v|
+!i113 1
+R6
+R7
+vinst_mem
+R8
+!i10b 1
+!s100 e8lY9Q=5J<fYCV`eIFFSB0
+Ifl<HSb05;kW][@MjKi5UH3
+R1
+R2
+w1590847772
+8/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/ROMRAM/inst_mem.v
+F/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/ROMRAM/inst_mem.v
+R9
+R4
+r1
+!s85 0
+31
+R10
+!s107 /mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/ROMRAM/inst_mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/ROMRAM/inst_mem.v|
+!i113 1
+R6
+R7
+vinteger_to_float
+R8
+!i10b 1
+!s100 71VU?nM?[XOKG33kAX>hN3
+I4jjU^>=<^XB]UBbjjEz2`3
+R1
+R2
+w1591021087
+8/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/integer_to_float.v
+F/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/integer_to_float.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 /mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/integer_to_float.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/integer_to_float.v|
+!i113 1
+R6
+R7
+vinteger_unit
+R0
+!i10b 1
+!s100 dCELldY6^]Jmfe[kk03Ja1
+I7iP^6_ko1dFEL;hG0]?nW2
+R1
+R2
+Z27 w1591279294
+Z28 8/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/integer_unit.v
+Z29 F/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/integer_unit.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+Z30 !s107 /mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/integer_unit.v|
+Z31 !s90 -reportprogress|300|-work|work|-stats=none|/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/integer_unit.v|
+!i113 1
+R6
+R7
+vnewton_divider24
+R0
+!i10b 1
+!s100 bHE29nRVlDXUa1G>nIOHg0
+IE4RdcoGJ5^Gk3EB3e_hE@1
+R1
+R2
+R3
+R15
+R16
+L0 159
+R4
+r1
+!s85 0
+31
+R5
+R17
+R18
+!i113 1
+R6
+R7
+vpipelined_cpu_with_fpu
+R0
+!i10b 1
+!s100 3TWIh7GD;iB7WM2d<VHLO1
+IJReRI7Eh5YT;iR:CWjI@l0
+R1
+R2
+w1591111899
+8/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/pipelined_cpu_with_fpu.v
+F/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/pipelined_cpu_with_fpu.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 /mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/pipelined_cpu_with_fpu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/pipelined_cpu_with_fpu.v|
+!i113 1
+R6
+R7
+vpipelined_cpu_with_fpu_tb
+R0
+!i10b 1
+!s100 TK5Q7JnXo;kIZS]eHIPn51
+I[nE9Az@MRYbP1g5:dHPPz1
+R1
+R2
+w1591112150
+8/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/pipelined_cpu_with_fpu_tb.v
+F/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/pipelined_cpu_with_fpu_tb.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 /mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/pipelined_cpu_with_fpu_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/pipelined_cpu_with_fpu_tb.v|
+!i113 1
+R6
+R7
+vpipelined_cpu_with_fpu_top
+R0
+!i10b 1
+!s100 623a_5XKV>fJ8:LOC80f@0
+IfaKn@l9i^[@^GY9AG1nJ50
+R1
+R2
+R3
+8/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/pipelined_cpu_with_fpu_top.v
+F/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/pipelined_cpu_with_fpu_top.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 /mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/pipelined_cpu_with_fpu_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/pipelined_cpu_with_fpu_top.v|
+!i113 1
+R6
+R7
+vpipelined_exe_mem_reg
+R0
+!i10b 1
+!s100 5D[0<iV9Y@Y_n<<CHG]PC3
+I_X1GWBT`<2Fe_d=RQmRaA3
+R1
+R2
+R27
+R28
+R29
+L0 555
+R4
+r1
+!s85 0
+31
+R5
+R30
+R31
+!i113 1
+R6
+R7
+vpipelined_exe_stage
+R0
+!i10b 1
+!s100 N1I==XGX:VJAHHATH42DH0
+I749Yi>?1Sec6S>gXG]zeK2
+R1
+R2
+R27
+R28
+R29
+L0 514
+R4
+r1
+!s85 0
+31
+R5
+R30
+R31
+!i113 1
+R6
+R7
+vpipelined_float_adder
+R0
+!i10b 1
+!s100 nFUQYkmQO16]2]<`hPL?i0
+ISgEPBOEG_0@HSVnWeLFE>0
+R1
+R2
+R3
+R11
+R12
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R13
+R14
+!i113 1
+R6
+R7
+vpipelined_float_multiplier
+R0
+!i10b 1
+!s100 zcE;UQiTIiZWT_OCl_WYo3
+ILD:ZIC?6fV;9Kl^2=ha571
+R1
+R2
+R3
+R19
+R20
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R21
+R22
+!i113 1
+R6
+R7
+vpipelined_id_exe_reg
+R0
+!i10b 1
+!s100 8f4>48RQ:12MH2EZBo;zb3
+IEi5A<icXUMFMhISicR8Y]2
+R1
+R2
+R27
+R28
+R29
+L0 443
+R4
+r1
+!s85 0
+31
+R5
+R30
+R31
+!i113 1
+R6
+R7
+vpipelined_id_stage
+R0
+!i10b 1
+!s100 @_Z3c8Yc_IBc1]K4l[8oF1
+I^T<2j31No0Y11nNVdcb0R1
+R1
+R2
+R27
+R28
+R29
+L0 186
+R4
+r1
+!s85 0
+31
+R5
+R30
+R31
+!i113 1
+R6
+R7
+vpipelined_if_id_reg
+R0
+!i10b 1
+!s100 kEo:N1oVR?H<@EP7`OUmG2
+IkPQiQo?JZG4QI6TSg:=mQ0
+R1
+R2
+R27
+R28
+R29
+L0 156
+R4
+r1
+!s85 0
+31
+R5
+R30
+R31
+!i113 1
+R6
+R7
+vpipelined_if_stage
+R0
+!i10b 1
+!s100 SE[m[YF=9^F4NKUHT7j;S0
+ILLUG51Yh[OMa`bXdNVP@k1
+R1
+R2
+R27
+R28
+R29
+L0 130
+R4
+r1
+!s85 0
+31
+R5
+R30
+R31
+!i113 1
+R6
+R7
+vpipelined_mem_stage
+R0
+!i10b 1
+!s100 PzDf6Q>3nGeof6BLlIU@B2
+I@>Dnd02IXc<N<z@e?b3Ra0
+R1
+R2
+R27
+R28
+R29
+L0 598
+R4
+r1
+!s85 0
+31
+R5
+R30
+R31
+!i113 1
+R6
+R7
+vpipelined_mem_wb_reg
+R0
+!i10b 1
+!s100 _A]MozBDJkH7lk>GLJa@93
+INOZVAf<DQQmd<lR?<n14N2
+R1
+R2
+R27
+R28
+R29
+L0 609
+R4
+r1
+!s85 0
+31
+R5
+R30
+R31
+!i113 1
+R6
+R7
+vpipelined_wb_stage
+R0
+!i10b 1
+!s100 4AY32@nZFZXB4Xii8O1SD2
+IYdV2;aolCA[?nO^8cmVP41
+R1
+R2
+R27
+R28
+R29
+L0 648
+R4
+r1
+!s85 0
+31
+R5
+R30
+R31
+!i113 1
+R6
+R7
+vpl_data_mem
+R0
+!i10b 1
+!s100 KIUW;NU;ca=ZC[DmamTZe3
+IlG]blb6?I?AM?RGEemWOn2
+R1
+R2
+R3
+8/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/pl_data_mem.v
+F/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/pl_data_mem.v
+L0 6
+R4
+r1
+!s85 0
+31
+R5
+!s107 /mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/pl_data_mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/pl_data_mem.v|
+!i113 1
+R6
+R7
+vpl_inst_mem
+R0
+!i10b 1
+!s100 5N`Ie:JI4n<=De<zW6^lC0
+IHXW39HJHk895G;iF]7em92
+R1
+R2
+R3
+8/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/pl_inst_mem.v
+F/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/pl_inst_mem.v
+L0 6
+R4
+r1
+!s85 0
+31
+R5
+!s107 /mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/pl_inst_mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/pl_inst_mem.v|
+!i113 1
+R6
+R7
+vregfile
+R8
+!i10b 1
+!s100 i0Jo33PhO3LEY9m=PXA6>0
+IEi?6n<iUgX564]H[3EXcd3
+R1
+R2
+R3
+8/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/register_file.v
+F/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/register_file.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 /mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/register_file.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/register_file.v|
+!i113 1
+R6
+R7
+vregfile2w
+R0
+!i10b 1
+!s100 h7VTIaTI=jb8Ez4dJ:_I32
+IFjQRa920Ua;SjeA>hB?de2
+R1
+R2
+w1590855137
+8/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/regfile2write.v
+F/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/regfile2write.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 /mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/regfile2write.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/regfile2write.v|
+!i113 1
+R6
+R7
+vshift_even_bits
+R0
+!i10b 1
+!s100 ?Uz[NIISzEf?mX@f^SfJf3
+I?iXcHMR<];jXjm[UKzc5d1
+R1
+R2
+R3
+R23
+R24
+L0 75
+R4
+r1
+!s85 0
+31
+R5
+R25
+R26
+!i113 1
+R6
+R7
+vshift_to_msb_equ_1
+R0
+!i10b 1
+!s100 KzmKQaZQ9^Qm`nA1DdoH91
+I_?M]ziJnJSii?S3e6K<E]2
+R1
+R2
+R3
+R15
+R16
+L0 139
+R4
+r1
+!s85 0
+31
+R5
+R17
+R18
+!i113 1
+R6
+R7
+vsqrt_newton24
+R0
+!i10b 1
+!s100 kkk<Vez5U8YLU5LM:Uono2
+I2h3=L;<[g372QecFQ3^Y^0
+R1
+R2
+R3
+R23
+R24
+L0 94
+R4
+r1
+!s85 0
+31
+R5
+R25
+R26
+!i113 1
+R6
+R7
+vwallace_24x24
+R8
+!i10b 1
+!s100 3mPhTSWMm<HWoigi648fD2
+ILi6R8aF4ac7>B;Zzj3b_m0
+R1
+R2
+R3
+8/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/wallace_24x24.v
+F/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/wallace_24x24.v
+L0 6
+R4
+r1
+!s85 0
+31
+R10
+!s107 /mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/wallace_24x24.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/wallace_24x24.v|
+!i113 1
+R6
+R7
+vwallace_24x26
+R8
+!i10b 1
+!s100 j6NUUkKTcl111i7aQNR5j3
+Ili2nmfOR1PMK9`o0<]FSa1
+R1
+R2
+R3
+8/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/wallace_24x26.v
+F/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/wallace_24x26.v
+L0 6
+R4
+r1
+!s85 0
+31
+R10
+!s107 /mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/wallace_24x26.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/wallace_24x26.v|
+!i113 1
+R6
+R7

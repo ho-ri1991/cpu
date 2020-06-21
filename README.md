@@ -1,2 +1,2 @@
 # cpu
-MIPS like CPU
+

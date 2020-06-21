@@ -1,0 +1,20 @@
+Fitter Status : Successful - Sun Jun 21 22:58:24 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : pipelined_cpu_with_fpu_top
+Top-level Entity Name : pipelined_cpu_with_fpu_top
+Family : Cyclone V
+Device : 5CEBA4F23C7
+Timing Models : Final
+Logic utilization (in ALMs) : 68 / 18,480 ( < 1 % )
+Total registers : 92
+Total pins : 158 / 224 ( 71 % )
+Total virtual pins : 0
+Total block memory bits : 88,064 / 3,153,920 ( 3 % )
+Total RAM Blocks : 12 / 308 ( 4 % )
+Total DSP Blocks : 0 / 66 ( 0 % )
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0 / 4 ( 0 % )
+Total DLLs : 0 / 4 ( 0 % )

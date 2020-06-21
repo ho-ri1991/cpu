@@ -1,0 +1,472 @@
+# Loading project pipelined_cpu_with_fpu_top
+# Compile of csa.v was successful.
+# Compile of float_divider_newton.v was successful.
+# Compile of float_sqrt_newton.v was successful.
+# Compile of fpu.v was successful.
+# Compile of integer_unit.v was successful.
+# Compile of pipelined_cpu_with_fpu.v was successful.
+# Compile of pipelined_cpu_with_fpu_tb.v was successful.
+# Compile of pipelined_cpu_with_fpu_top.v was successful.
+# Compile of pipelined_float_adder.v was successful.
+# Compile of pipelined_float_multiplier.v was successful.
+# Compile of pl_data_mem.v was successful.
+# Compile of pl_inst_mem.v was successful.
+# Compile of regfile2write.v was successful.
+# Compile of register_file.v was successful.
+# Compile of wallace_24x24.v was successful.
+# Compile of wallace_24x26.v was successful.
+# Compile of data_mem.v was successful.
+# Compile of inst_mem.v was successful.
+# Compile of integer_to_float.v was successful.
+# Compile of float_to_integer.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.pipelined_cpu_with_fpu_tb -L altera_mf_ver -Lf altera_mf_ver
+# vsim work.pipelined_cpu_with_fpu_tb -L altera_mf_ver -Lf altera_mf_ver 
+# Start time: 22:31:33 on Jun 04,2020
+# Loading work.pipelined_cpu_with_fpu_tb
+# Loading work.pipelined_cpu_with_fpu
+# Loading work.integer_unit
+# Loading work.pipelined_if_stage
+# Loading work.inst_mem
+# Loading altera_mf_ver.altsyncram
+# Loading work.pipelined_if_id_reg
+# Loading work.pipelined_id_stage
+# Loading work.regfile
+# Loading work.pipelined_id_exe_reg
+# Loading work.pipelined_exe_stage
+# Loading work.pipelined_exe_mem_reg
+# Loading work.pipelined_mem_stage
+# Loading work.data_mem
+# Loading work.pipelined_mem_wb_reg
+# Loading work.pipelined_wb_stage
+# Loading work.regfile2w
+# Loading work.floating_point_unit
+# Loading work.pipelined_float_adder
+# Loading work.float_adder_align_stage
+# Loading work.float_adder_align_cal_reg
+# Loading work.float_adder_cal_stage
+# Loading work.float_adder_cal_norm_reg
+# Loading work.float_adder_norm_stage
+# Loading work.pipelined_float_multiplier
+# Loading work.float_multiplier_mul_stage
+# Loading work.wallace_24x24
+# Loading work.csa
+# Loading work.float_multiplier_mul_add_reg
+# Loading work.float_multiplier_add_stage
+# Loading work.float_multiplier_add_norm_reg
+# Loading work.float_multiplier_norm_stage
+# Loading work.float_divider_newton
+# Loading work.shift_to_msb_equ_1
+# Loading work.newton_divider24
+# Loading work.wallace_24x26
+# Loading work.float_sqrt_newton
+# Loading work.shift_even_bits
+# Loading work.sqrt_newton24
+# Loading work.float_to_integer
+# Loading work.integer_to_float
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/clk
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/memclk
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/clrn
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/pc
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/inst
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/ealu
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/malu
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/walu
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/wd
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/e3d
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/wn
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/count_fdiv
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/count_fsqrt
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/e1n
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/e2n
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/e3n
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/ww
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/stall_lw
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/stall_fp
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/stall_lwc1
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/stall_swc1
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/stall_mfc1
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/stall_mtc1
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/stall
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/e
+run 200ns
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/mwfpr
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/ewfpr
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/wwfpr
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/fs
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/ft
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/fd
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/mmo
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/wmo
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/fpu_wd
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/fpu_rn
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/fpu_we
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/i_itof
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/i_ftoi
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/i_mfc1
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/i_mtc1
+restart
+run 200ns
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/e1n
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/e2n
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/e3n
+# Compile of csa.v was successful.
+# Compile of float_divider_newton.v was successful.
+# Compile of float_sqrt_newton.v was successful.
+# Compile of fpu.v was successful.
+# Compile of integer_unit.v was successful.
+# Compile of pipelined_cpu_with_fpu.v was successful.
+# Compile of pipelined_cpu_with_fpu_tb.v was successful.
+# Compile of pipelined_cpu_with_fpu_top.v was successful.
+# Compile of pipelined_float_adder.v was successful.
+# Compile of pipelined_float_multiplier.v was successful.
+# Compile of pl_data_mem.v was successful.
+# Compile of pl_inst_mem.v was successful.
+# Compile of regfile2write.v was successful.
+# Compile of register_file.v was successful.
+# Compile of wallace_24x24.v was successful.
+# Compile of wallace_24x26.v was successful.
+# Compile of data_mem.v was successful.
+# Compile of inst_mem.v was successful.
+# Compile of integer_to_float.v was successful.
+# Compile of float_to_integer.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim -L altera_mf_ver -Lf altera_mf_ver work.pipelined_cpu_with_fpu_tb
+# End time: 22:49:39 on Jun 04,2020, Elapsed time: 0:18:06
+# Errors: 0, Warnings: 2
+# vsim -L altera_mf_ver -Lf altera_mf_ver work.pipelined_cpu_with_fpu_tb 
+# Start time: 22:49:39 on Jun 04,2020
+# Loading work.pipelined_cpu_with_fpu_tb
+# Loading work.pipelined_cpu_with_fpu
+# Loading work.integer_unit
+# Loading work.pipelined_if_stage
+# Loading work.inst_mem
+# Loading altera_mf_ver.altsyncram
+# Loading work.pipelined_if_id_reg
+# Loading work.pipelined_id_stage
+# Loading work.regfile
+# Loading work.pipelined_id_exe_reg
+# Loading work.pipelined_exe_stage
+# Loading work.pipelined_exe_mem_reg
+# Loading work.pipelined_mem_stage
+# Loading work.data_mem
+# Loading work.pipelined_mem_wb_reg
+# Loading work.pipelined_wb_stage
+# Loading work.regfile2w
+# Loading work.floating_point_unit
+# Loading work.pipelined_float_adder
+# Loading work.float_adder_align_stage
+# Loading work.float_adder_align_cal_reg
+# Loading work.float_adder_cal_stage
+# Loading work.float_adder_cal_norm_reg
+# Loading work.float_adder_norm_stage
+# Loading work.pipelined_float_multiplier
+# Loading work.float_multiplier_mul_stage
+# Loading work.wallace_24x24
+# Loading work.csa
+# Loading work.float_multiplier_mul_add_reg
+# Loading work.float_multiplier_add_stage
+# Loading work.float_multiplier_add_norm_reg
+# Loading work.float_multiplier_norm_stage
+# Loading work.float_divider_newton
+# Loading work.shift_to_msb_equ_1
+# Loading work.newton_divider24
+# Loading work.wallace_24x26
+# Loading work.float_sqrt_newton
+# Loading work.shift_even_bits
+# Loading work.sqrt_newton24
+# Loading work.float_to_integer
+# Loading work.integer_to_float
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/clk
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/memclk
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/clrn
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/pc
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/inst
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/ealu
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/malu
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/walu
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/wd
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/e3d
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/wn
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/count_fdiv
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/count_fsqrt
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/e1n
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/e2n
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/e3n
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/ww
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/stall_lw
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/stall_fp
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/stall_lwc1
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/stall_swc1
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/stall_mfc1
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/stall_mtc1
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/stall
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/e
+run 200ns
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/fs
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/ft
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/fd
+restart
+run 200ns
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/wfpr
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/fpu_wd
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/fpu_rn
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/fpu_we
+restart
+run 500ns
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/i_lwc1
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/i_swc1
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/i_fadd
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/i_fsub
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/i_fmul
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/i_fdiv
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/i_fsqrt
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/i_itof
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/i_ftoi
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/i_mfc1
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/i_mtc1
+restart
+run 200ns
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of csa.v was successful.
+# Compile of float_divider_newton.v was successful.
+# Compile of float_sqrt_newton.v was successful.
+# Compile of fpu.v was successful.
+# Compile of integer_unit.v was successful.
+# Compile of pipelined_cpu_with_fpu.v was successful.
+# Compile of pipelined_cpu_with_fpu_tb.v was successful.
+# Compile of pipelined_cpu_with_fpu_top.v was successful.
+# Compile of pipelined_float_adder.v was successful.
+# Compile of pipelined_float_multiplier.v was successful.
+# Compile of pl_data_mem.v was successful.
+# Compile of pl_inst_mem.v was successful.
+# Compile of regfile2write.v was successful.
+# Compile of register_file.v was successful.
+# Compile of wallace_24x24.v was successful.
+# Compile of wallace_24x26.v was successful.
+# Compile of data_mem.v was successful.
+# Compile of inst_mem.v was successful.
+# Compile of integer_to_float.v was successful.
+# Compile of float_to_integer.v was successful.
+# 20 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of csa.v was successful.
+# Compile of float_divider_newton.v was successful.
+# Compile of float_sqrt_newton.v was successful.
+# Compile of fpu.v was successful.
+# Compile of integer_unit.v was successful.
+# Compile of pipelined_cpu_with_fpu.v was successful.
+# Compile of pipelined_cpu_with_fpu_tb.v was successful.
+# Compile of pipelined_cpu_with_fpu_top.v was successful.
+# Compile of pipelined_float_adder.v was successful.
+# Compile of pipelined_float_multiplier.v was successful.
+# Compile of pl_data_mem.v was successful.
+# Compile of pl_inst_mem.v was successful.
+# Compile of regfile2write.v was successful.
+# Compile of register_file.v was successful.
+# Compile of wallace_24x24.v was successful.
+# Compile of wallace_24x26.v was successful.
+# Compile of data_mem.v was successful.
+# Compile of inst_mem.v was successful.
+# Compile of integer_to_float.v was successful.
+# Compile of float_to_integer.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim -L altera_mf_ver -Lf altera_mf_ver work.pipelined_cpu_with_fpu_tb
+# End time: 23:01:58 on Jun 04,2020, Elapsed time: 0:12:19
+# Errors: 1, Warnings: 4
+# vsim -L altera_mf_ver -Lf altera_mf_ver work.pipelined_cpu_with_fpu_tb 
+# Start time: 23:01:58 on Jun 04,2020
+# Loading work.pipelined_cpu_with_fpu_tb
+# Loading work.pipelined_cpu_with_fpu
+# Loading work.integer_unit
+# Loading work.pipelined_if_stage
+# Loading work.inst_mem
+# Loading altera_mf_ver.altsyncram
+# Loading work.pipelined_if_id_reg
+# Loading work.pipelined_id_stage
+# Loading work.regfile
+# Loading work.pipelined_id_exe_reg
+# Loading work.pipelined_exe_stage
+# Loading work.pipelined_exe_mem_reg
+# Loading work.pipelined_mem_stage
+# Loading work.data_mem
+# Loading work.pipelined_mem_wb_reg
+# Loading work.pipelined_wb_stage
+# Loading work.regfile2w
+# Loading work.floating_point_unit
+# Loading work.pipelined_float_adder
+# Loading work.float_adder_align_stage
+# Loading work.float_adder_align_cal_reg
+# Loading work.float_adder_cal_stage
+# Loading work.float_adder_cal_norm_reg
+# Loading work.float_adder_norm_stage
+# Loading work.pipelined_float_multiplier
+# Loading work.float_multiplier_mul_stage
+# Loading work.wallace_24x24
+# Loading work.csa
+# Loading work.float_multiplier_mul_add_reg
+# Loading work.float_multiplier_add_stage
+# Loading work.float_multiplier_add_norm_reg
+# Loading work.float_multiplier_norm_stage
+# Loading work.float_divider_newton
+# Loading work.shift_to_msb_equ_1
+# Loading work.newton_divider24
+# Loading work.wallace_24x26
+# Loading work.float_sqrt_newton
+# Loading work.shift_even_bits
+# Loading work.sqrt_newton24
+# Loading work.float_to_integer
+# Loading work.integer_to_float
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/clk
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/memclk
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/clrn
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/pc
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/inst
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/ealu
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/malu
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/walu
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/wd
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/e3d
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/wn
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/count_fdiv
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/count_fsqrt
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/e1n
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/e2n
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/e3n
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/ww
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/stall_lw
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/stall_fp
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/stall_lwc1
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/stall_swc1
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/stall_mfc1
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/stall_mtc1
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/stall
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/e
+run 200ns
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/fpu_wd
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/fpu_rn
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/fpu_we
+restart
+run 200ns
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/i_itof
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/i_ftoi
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/i_mfc1
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/iu/id_stage/i_mtc1
+restart
+run 200ns
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of csa.v was successful.
+# Compile of float_divider_newton.v was successful.
+# Compile of float_sqrt_newton.v was successful.
+# Compile of fpu.v was successful.
+# Compile of integer_unit.v was successful.
+# Compile of pipelined_cpu_with_fpu.v was successful.
+# Compile of pipelined_cpu_with_fpu_tb.v was successful.
+# Compile of pipelined_cpu_with_fpu_top.v was successful.
+# Compile of pipelined_float_adder.v was successful.
+# Compile of pipelined_float_multiplier.v was successful.
+# Compile of pl_data_mem.v was successful.
+# Compile of pl_inst_mem.v was successful.
+# Compile of regfile2write.v was successful.
+# Compile of register_file.v was successful.
+# Compile of wallace_24x24.v was successful.
+# Compile of wallace_24x26.v was successful.
+# Compile of data_mem.v was successful.
+# Compile of inst_mem.v was successful.
+# Compile of integer_to_float.v was successful.
+# Compile of float_to_integer.v was successful.
+# 20 compiles, 0 failed with no errors.
+restart
+# Loading work.pipelined_cpu_with_fpu_tb
+# Loading work.pipelined_cpu_with_fpu
+# Loading work.integer_unit
+# Loading work.pipelined_if_stage
+# Loading work.inst_mem
+# Loading work.pipelined_if_id_reg
+# Loading work.pipelined_id_stage
+# Loading work.regfile
+# Loading work.pipelined_id_exe_reg
+# Loading work.pipelined_exe_stage
+# Loading work.pipelined_exe_mem_reg
+# Loading work.pipelined_mem_stage
+# Loading work.data_mem
+# Loading work.pipelined_mem_wb_reg
+# Loading work.pipelined_wb_stage
+# Loading work.regfile2w
+# Loading work.floating_point_unit
+# Loading work.pipelined_float_adder
+# Loading work.float_adder_align_stage
+# Loading work.float_adder_align_cal_reg
+# Loading work.float_adder_cal_stage
+# Loading work.float_adder_cal_norm_reg
+# Loading work.float_adder_norm_stage
+# Loading work.pipelined_float_multiplier
+# Loading work.float_multiplier_mul_stage
+# Loading work.wallace_24x24
+# Loading work.csa
+# Loading work.float_multiplier_mul_add_reg
+# Loading work.float_multiplier_add_stage
+# Loading work.float_multiplier_add_norm_reg
+# Loading work.float_multiplier_norm_stage
+# Loading work.float_divider_newton
+# Loading work.shift_to_msb_equ_1
+# Loading work.newton_divider24
+# Loading work.wallace_24x26
+# Loading work.float_sqrt_newton
+# Loading work.shift_even_bits
+# Loading work.sqrt_newton24
+# Loading work.float_to_integer
+# Loading work.integer_to_float
+run 200ns
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/e1n
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/e2n
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/e3n
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/fs
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/ft
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/fd
+restart
+run 200ns
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/wf
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/fc
+restart
+run 200ns
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/fpu/conv1
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/fpu/conv2
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/fpu/conv3
+add wave -position 28  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/fpu/s_conv
+add wave -position 28  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/fpu/s_ftoi
+add wave -position 29  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/fpu/s_itof
+restart
+run 200ns
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/fpu/e3c
+restart
+run 200ns
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/fpu/ed
+add wave -position end  sim:/pipelined_cpu_with_fpu_tb/plcpufpu/fpu/wd
+restart
+run 200ns
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Break key hit
+# End time: 23:50:10 on Jun 07,2020, Elapsed time: 72:48:12
+# Errors: 0, Warnings: 9

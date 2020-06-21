@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at pipelined_float_multiplier.v(160): always construct contains both blocking and non-blocking assignments File: /mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/pipelined_float_multiplier.v Line: 160
+Warning (10268): Verilog HDL information at float_divider_newton.v(178): always construct contains both blocking and non-blocking assignments File: /mnt/disk1/koudai/fpga/pipelined_cpu_with_fpu/HDL/float_divider_newton.v Line: 178

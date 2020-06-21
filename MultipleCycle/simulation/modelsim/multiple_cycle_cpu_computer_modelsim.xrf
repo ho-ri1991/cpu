@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, /mnt/disk1/koudai/fpga/cpu/MultipleCycle/register_file.v
+source_file = 1, /mnt/disk1/koudai/fpga/cpu/MultipleCycle/multiple_cycle_cpu_tb.v
+source_file = 1, /mnt/disk1/koudai/fpga/cpu/MultipleCycle/multiple_cycle_cpu.v
+source_file = 1, /mnt/disk1/koudai/fpga/cpu/MultipleCycle/mcmem.qip
+source_file = 1, /mnt/disk1/koudai/fpga/cpu/MultipleCycle/mcmem.v
+source_file = 1, /mnt/disk1/koudai/fpga/cpu/MultipleCycle/db/multiple_cycle_cpu_computer.cbx.xml
+design_name = multiple_cycle_cpu_computer
+instance = comp, \y~output , y~output, multiple_cycle_cpu_computer, 1
+instance = comp, \x~input , x~input, multiple_cycle_cpu_computer, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, multiple_cycle_cpu_computer, 1
