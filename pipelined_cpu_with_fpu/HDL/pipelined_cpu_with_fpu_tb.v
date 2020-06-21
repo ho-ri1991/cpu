@@ -2,13 +2,13 @@
 module pipelined_cpu_with_fpu_tb;
 
 reg clk, memclk, clrn;
-wire[31:0] pc, inst, ealu, malu, walu, wd, e3d;
+wire[31:0] pc, inst, ealu, malu, walu, wd, e3d, vramaddr, vramdata;
 wire[4:0] wn, count_fdiv, count_fsqrt, e1n, e2n, e3n;
-wire ww, stall_lw, stall_fp, stall_lwc1, stall_swc1, stall_mfc1, stall_mtc1, stall, e;
+wire ww, stall_lw, stall_fp, stall_lwc1, stall_swc1, stall_mfc1, stall_mtc1, stall, e, vramwe;
 pipelined_cpu_with_fpu plcpufpu(
   clk, memclk, clrn, pc, inst, ealu, malu, walu,
   wn, wd, ww, stall_lw, stall_fp, stall_lwc1, stall_swc1, stall_mfc1, stall_mtc1, stall,
-  count_fdiv, count_fsqrt, e1n, e2n, e3n, e3d, e);
+  count_fdiv, count_fsqrt, e1n, e2n, e3n, e3d, e, vramaddr, vramwe, vramdata);
 
 initial begin
   clk <= 1;

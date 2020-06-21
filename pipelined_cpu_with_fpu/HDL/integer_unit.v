@@ -532,7 +532,8 @@ module pipelined_exe_stage(
   output[31:0] eb_out
 );
 
-wire[31:0] alu_a = (eshift ? eimm : ea);
+wire[31:0] esa = {27'b0, eimm[10:6]};
+wire[31:0] alu_a = (eshift ? esa : ea);
 wire[31:0] alu_b = (ealuimm ? eimm : eb);
 reg[31:0] alu_out;
 always @* begin
@@ -543,9 +544,9 @@ always @* begin
     4'bx101: alu_out <= alu_a | alu_b;
     4'bx010: alu_out <= alu_a ^ alu_b;
     4'bx110: alu_out <= {alu_b[15:0], 16'b0};
-    4'b0011: alu_out <= alu_b << ea;
-    4'b0111: alu_out <= alu_b >> ea;
-    4'b1111: alu_out <= $signed(alu_b) >>> ea;
+    4'b0011: alu_out <= alu_b << alu_a;
+    4'b0111: alu_out <= alu_b >> alu_a;
+    4'b1111: alu_out <= $signed(alu_b) >>> alu_a;
     default: alu_out <= 32'b0;
   endcase
 end

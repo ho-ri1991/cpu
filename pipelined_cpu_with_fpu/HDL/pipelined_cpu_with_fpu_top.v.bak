@@ -63,7 +63,7 @@ VRAM VRAM(
   .clock ( CLK ),
   .data ( vramin ),
   .rdaddress ( vgavramaddr ),
-  .wraddress ( vramaddr ),
+  .wraddress ( vramaddr[31:2] ),
   .wren ( vramwe ),
   .q ( vramout )
 );
