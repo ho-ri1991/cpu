@@ -18,7 +18,7 @@ end
 
 wire hcntend = (HCNT==HPERIOD-10'h001);
 
-always @(posedge PCK or negedge clrn) begin
+always @(posedge PCK) begin
   if(!clrn)
     HCNT <= 10'h000;
   else if(hcntend)
@@ -27,7 +27,7 @@ always @(posedge PCK or negedge clrn) begin
     HCNT <= HCNT + 10'h001;
 end
 
-always @(posedge PCK or negedge clrn) begin
+always @(posedge PCK) begin
   if(!clrn)
     VCNT <= 10'h000;
   else if(hcntend) begin
@@ -43,7 +43,7 @@ wire [9:0] hsend   = HFRONT + HWIDTH - 10'h001;
 wire [9:0] vsstart = VFRONT;
 wire [9:0] vsend   = VFRONT + VWIDTH;
 
-always @(posedge PCK or negedge clrn) begin
+always @(posedge PCK) begin
   if(!clrn)
     VGA_HS <= 1'b1;
   else if(HCNT==hsstart)
@@ -52,7 +52,7 @@ always @(posedge PCK or negedge clrn) begin
       VGA_HS <= 1'b1;
 end
 
-always @(posedge PCK or negedge clrn) begin
+always @(posedge PCK) begin
   if(!clrn)
     VGA_VS <= 1'b1;
   else if(HCNT==hsstart) begin

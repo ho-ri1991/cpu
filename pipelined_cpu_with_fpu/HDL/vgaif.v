@@ -49,7 +49,7 @@ assign vramaddr = (vchacnt<<6) + (vchacnt<<4) + hchacnt;
 reg [7:0] sreg;
 wire sregld = (hdotcnt==3'h6 && iHCNT<10'd640);
 
-always @(posedge PCK or negedge clrn) begin
+always @(posedge PCK) begin
   if(!clrn)
     sreg <= 8'h00;
   else if(sregld)
@@ -60,7 +60,7 @@ end
 
 reg [11:0] color;
 
-always @(posedge PCK or negedge clrn) begin
+always @(posedge PCK) begin
   if(!clrn)
     color <= 12'h000;
   else if(sregld)
@@ -71,7 +71,7 @@ wire hdispen = (10'd7<=iHCNT && iHCNT<10'd647);
 wire vdispen = (iVCNT<9'd400);
 
 reg [11:0] vga_rgb;
-always @(posedge PCK or negedge clrn) begin
+always @(posedge PCK) begin
   if(!clrn)
     vga_rgb <= 12'h000;
   else
