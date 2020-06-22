@@ -1,0 +1,6 @@
+*.bak
+db
+devkits
+output_files
+incremental_db
+work
