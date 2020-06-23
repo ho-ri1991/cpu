@@ -1,0 +1,199 @@
+/mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/ROMRAM/inst_mem.v {1 {vlog -work work -stats=none /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/ROMRAM/inst_mem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module inst_mem
+
+Top level modules:
+	inst_mem
+
+} {} {}} /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/fpu.v {1 {vlog -work work -stats=none /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/fpu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module floating_point_unit
+
+Top level modules:
+	floating_point_unit
+
+} {} {}} /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/pipelined_cpu_with_fpu_tb.v {1 {vlog -work work -stats=none /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/pipelined_cpu_with_fpu_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module pipelined_cpu_with_fpu_tb
+
+Top level modules:
+	pipelined_cpu_with_fpu_tb
+
+} {} {}} /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/pipelined_cpu_with_fpu_with_vga_tb.v {1 {vlog -work work -stats=none /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/pipelined_cpu_with_fpu_with_vga_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module pipelined_cpu_with_fpu_with_vga_tb
+
+Top level modules:
+	pipelined_cpu_with_fpu_with_vga_tb
+
+} {} {}} /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/ROMRAM/VRAM.v {1 {vlog -work work -stats=none /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/ROMRAM/VRAM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module VRAM
+
+Top level modules:
+	VRAM
+
+} {} {}} /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/sec10.v {1 {vlog -work work -stats=none /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/sec10.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module SEC10
+
+Top level modules:
+	SEC10
+
+} {} {}} /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/vgaif.v {1 {vlog -work work -stats=none /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/vgaif.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module vgaif
+
+Top level modules:
+	vgaif
+
+} {} {}} /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/integer_unit.v {1 {vlog -work work -stats=none /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/integer_unit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module integer_unit
+-- Compiling module pipelined_if_stage
+-- Compiling module pipelined_if_id_reg
+-- Compiling module pipelined_id_stage
+-- Compiling module pipelined_id_exe_reg
+-- Compiling module pipelined_exe_stage
+-- Compiling module pipelined_exe_mem_reg
+-- Compiling module pipelined_mem_stage
+-- Compiling module pipelined_mem_wb_reg
+-- Compiling module pipelined_wb_stage
+
+Top level modules:
+	integer_unit
+
+} {} {}} /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/float_divider_newton.v {1 {vlog -work work -stats=none /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/float_divider_newton.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module float_divider_newton
+-- Compiling module shift_to_msb_equ_1
+-- Compiling module newton_divider24
+
+Top level modules:
+	float_divider_newton
+
+} {} {}} /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/pipelined_float_adder.v {1 {vlog -work work -stats=none /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/pipelined_float_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module pipelined_float_adder
+-- Compiling module float_adder_align_stage
+-- Compiling module float_adder_align_cal_reg
+-- Compiling module float_adder_cal_stage
+-- Compiling module float_adder_cal_norm_reg
+-- Compiling module float_adder_norm_stage
+
+Top level modules:
+	pipelined_float_adder
+
+} {} {}} /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/syncgen.v {1 {vlog -work work -stats=none /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/syncgen.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module syncgen
+
+Top level modules:
+	syncgen
+
+} {} {}} /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/csa.v {1 {vlog -work work -stats=none /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/csa.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module csa
+
+Top level modules:
+	csa
+
+} {} {}} /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/float_sqrt_newton.v {1 {vlog -work work -stats=none /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/float_sqrt_newton.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module float_sqrt_newton
+-- Compiling module shift_even_bits
+-- Compiling module sqrt_newton24
+
+Top level modules:
+	float_sqrt_newton
+
+} {} {}} /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/regfile2write.v {1 {vlog -work work -stats=none /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/regfile2write.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module regfile2w
+
+Top level modules:
+	regfile2w
+
+} {} {}} /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/pl_data_mem.v {1 {vlog -work work -stats=none /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/pl_data_mem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module pl_data_mem
+
+Top level modules:
+	pl_data_mem
+
+} {} {}} /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/wallace_24x24.v {1 {vlog -work work -stats=none /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/wallace_24x24.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module wallace_24x24
+
+Top level modules:
+	wallace_24x24
+
+} {} {}} /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/register_file.v {1 {vlog -work work -stats=none /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/register_file.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}} /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/pipelined_float_multiplier.v {1 {vlog -work work -stats=none /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/pipelined_float_multiplier.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module pipelined_float_multiplier
+-- Compiling module float_multiplier_mul_stage
+-- Compiling module float_multiplier_mul_add_reg
+-- Compiling module float_multiplier_add_stage
+-- Compiling module float_multiplier_add_norm_reg
+-- Compiling module float_multiplier_norm_stage
+
+Top level modules:
+	pipelined_float_multiplier
+
+} {} {}} /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/float_to_integer.v {1 {vlog -work work -stats=none /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/float_to_integer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module float_to_integer
+
+Top level modules:
+	float_to_integer
+
+} {} {}} /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/integer_to_float.v {1 {vlog -work work -stats=none /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/integer_to_float.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module integer_to_float
+
+Top level modules:
+	integer_to_float
+
+} {} {}} /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/ROMRAM/data_mem.v {1 {vlog -work work -stats=none /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/ROMRAM/data_mem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module data_mem
+
+Top level modules:
+	data_mem
+
+} {} {}} /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/ROMRAM/CGROM.v {1 {vlog -work work -stats=none /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/ROMRAM/CGROM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CGROM
+
+Top level modules:
+	CGROM
+
+} {} {}} /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/wallace_24x26.v {1 {vlog -work work -stats=none /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/wallace_24x26.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module wallace_24x26
+
+Top level modules:
+	wallace_24x26
+
+} {} {}} /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/pipelined_cpu_with_fpu.v {1 {vlog -work work -stats=none /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/pipelined_cpu_with_fpu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module pipelined_cpu_with_fpu
+
+Top level modules:
+	pipelined_cpu_with_fpu
+
+} {} {}} /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/pl_inst_mem.v {1 {vlog -work work -stats=none /mnt/disk1/koudai/fpga/cpu/pipelined_cpu_with_fpu/HDL/pl_inst_mem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module pl_inst_mem
+
+Top level modules:
+	pl_inst_mem
+
+} {} {}}
