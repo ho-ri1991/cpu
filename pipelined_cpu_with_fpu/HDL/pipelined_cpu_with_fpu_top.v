@@ -3,7 +3,8 @@ module pipelined_cpu_with_fpu_top(
 
   input [8:0] SW,
   input [3:0] KEY,
-  output reg[6:0] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5,
+  output reg[6:0] HEX0,
+  output[6:0] HEX1, HEX2, HEX3, HEX4, HEX5,
 
   output [9:0] LEDR,
   inout PS2_CLK, PS2_DAT,
@@ -22,7 +23,7 @@ module pipelined_cpu_with_fpu_top(
   inout [35:0] GPIO_0
 );
 
-//assign HEX0=7'h7f, HEX1=7'h7f, HEX2=7'h7f, HEX3=7'h7f, HEX4=7'h7f, HEX5=7'h7f;
+assign HEX1=7'h7f, HEX2=7'h7f, HEX3=7'h7f, HEX4=7'h7f, HEX5=7'h7f;
 
 reg cpuclk;
 wire memclk = ~CLK;
@@ -56,8 +57,8 @@ vgaif vga(
 VRAM VRAM(
   .clock ( CLK ),
   .data ( vramin ),
-  .rdaddress ( vgavramaddr[13:2] ),
-  .wraddress ( vramaddr ),
+  .rdaddress ( vgavramaddr[13:0] ),
+  .wraddress ( vramaddr[13:2] ),
   .wren ( vramwe ),
   .q ( vramout )
 );
